@@ -38,7 +38,6 @@ module.exports = function toReadable(number) {
     ];
 
     let result;
-    debugger;
     let num = number.toString().split("");
     if (num.length == 1) result = digits[number];
     else if (num.length == 2) {
@@ -53,4 +52,3 @@ module.exports = function toReadable(number) {
     return result;
 }
 
-// toReadable(999);
